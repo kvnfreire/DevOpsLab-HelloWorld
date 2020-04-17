@@ -20,7 +20,7 @@ script:
 deploy:
   provider: heroku
   api-key:
-    secure: "$HEROKU_API_KEY"
+     secure: ac5RttQo3ZS5zWALW0oAkq3MthsWy3yimwMyx0+H1BkuH981965PY3ysvJNHadw2+k/g7rNry2zGMWlTTIxlXo7TWp3sV2I524iS1YnMrrfnRpj6A5RBUkZLtF/d5ChxCBYgkmwL9B8g0cgv5nNiCW1sQIc9HQ1pBJ609jooxNpZQD3KBb93nPevKkI6/Ji2IcGssh+gZfXLl7ovWG5/bdaDy77spPRICl6LKPiFkIBgQqwXj10uqzNBFICmwOJ6nm/0n/du3ZoIUZVzb8Poc1IiUltB1f9pX6IbX4nL/LQpIuYcqfcp1c6rR6lwdsJ/vdJQ1jraoDEJ2SC1sOvklfAoatO15k7a8TzpN4HU6QC9PU5vHCpJ4OO6+gBFUWxEfsHUUjjX2P9N7z3FqBNFgXDOzxQZA9ii9JE8lB4FUHnpavCh7M5Cq6w1bLvwOka5LZEcrpju1y5Rb+4Nxdsf2Tyuy/8WThpWCLm3OpNhK5Q8vLo7i2boBMk1mvxNfGfdU+N6w+gS4VZ9I02fa0LmhdAkwhZ0BpYOp5x3Q6fvdKqC13dPy7W+aeW/e5IkU84d/hIOxlnYSTMxbr0cPUgUBPJfFZqBDUxf9KWeuBTlfBM1BRecqcaSJbHmCzViE63sgrDpKDQ5SvYtwQbFbfjac5ThRWGmZdDWPhFwDDoZkXY=
   app: devops-essentials-master
   on:
     repo:  kvnfreire/DevOpsLab-HelloWorld
